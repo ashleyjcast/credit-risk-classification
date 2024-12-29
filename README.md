@@ -9,7 +9,7 @@ The purpose of this analysis is to use a logistic regression model to evaluate t
 The dataset includes financial information such as the borrower’s: loan size, interest rate, income, debt to income ratio and total debt. However, the target variable in this analysis is loan status which indicates whether a loan is healthy (labeled 0) or high-risk (labeled 1). The distribution of loan status in the dataset is imbalanced as most loans are healthy. 
 The analysis required splitting the dataset into separate training and testing datasets using “train_test_split,” fitting a logistic regression model from sklearn, and evaluating its performance using key metrics such as: accuracy, precision, recall, F1-score, and confusion matrix. These metrics provide insight into the model’s ability to accurately classify healthy loans and high-risk loans. 
 
-Results
+Results:
 
 - Accuracy score: 99% 
 * The model accurately classified 99% of loans in the test dataset. 
